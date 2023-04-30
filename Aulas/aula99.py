@@ -6,7 +6,12 @@
 
 # print(soma_modulo(10, 20))
 # print(aula99_package.modulo.soma_modulo(5, 6))
-from aula99_package.modulo_b import fala, responde
 
-fala()
-responde()
+# from aula99_package.modulo_b import fala, responde
+
+# fala()
+# responde()
+
+import aula99_package
+
+print(aula99_package.dobra(5))
